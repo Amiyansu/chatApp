@@ -1,0 +1,93 @@
+
+body{
+    height: 100vh;
+    /* background-image: linear-gradient(rgb(131, 231, 245), rgb(239, 96, 239)); */
+    /* background: linear-gradient(to right, red , yellow); */
+    /* background:radial-gradient(circle at bottom left,cyan,rgb(240, 81, 240),rgb(239, 239, 31)); */
+    background:linear-gradient(orange,white,green)
+    /* background:radial-gradient(circle,magenta,cyan,yellow) */
+
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 170px;
+    height: 160px;
+}
+h1{
+    margin-top: 1px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(3, 3, 192);
+    font-weight: bolder;
+}
+.container{
+    max-width: 955px;
+    /* background:radial-gradient(circle at bottom left,cyan,rgb(240, 81, 240),rgb(239, 239, 31)); */
+    background: linear-gradient(orange,white,rgb(48, 247, 48));
+    border: 3px dotted rgb(113, 110, 110);
+    border-radius: 20px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    /* background-color: rgb(202, 189, 189); */
+    /* background: transparent; */
+    /* background-image: linear-gradient(rgb(239, 245, 131), rgb(241, 93, 40)); */
+    background: linear-gradient(to right, orange , rgb(237, 237, 61));
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 1px dotted rgb(41, 21, 218);
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 2px dotted blue;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+}
+.btn{
+    background-image: linear-gradient(rgb(18, 255, 85), rgb(0, 204, 255));
+    font-weight: bolder;
+    margin: 0 7px;
+    width: 7%;
+    cursor: pointer;
+    /* border: 1px solid rgb(53, 53, 244); */
+    border-radius: 6px;
+    height: 34px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(114, 109, 109);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(246, 255, 0);
+    border-radius: 10px;
+}
